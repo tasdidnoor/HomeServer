@@ -1,0 +1,12 @@
+# cloudflared config.yml template
+# Used to securely expose local services to the internet via Cloudflare Tunnels
+
+tunnel: <YOUR_TUNNEL_ID>
+credentials-file: /home/<YOUR_USER>/.cloudflared/<YOUR_TUNNEL_ID>.json
+
+ingress:
+  - hostname: dashboard.yourdomain.com
+    service: http://localhost:80
+  - hostname: jellyfin.yourdomain.com
+    service: http://localhost:8096
+  - service: http_status:404

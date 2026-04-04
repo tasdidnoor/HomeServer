@@ -1,0 +1,9 @@
+network:
+  version: 2
+  renderer: networkd
+  wifis:
+    wlan0:  # Replace with your actual interface name (found with `ls /sys/class/net/`)
+      dhcp4: true
+      access-points:
+        "YOUR_SSID":
+          password: "YOUR_WIFI_PASSWORD"

@@ -1,0 +1,8 @@
+# /etc/systemd/logind.conf configuration for laptop server use
+# Uncomment and change the following lines to 'ignore' to prevent sleeping on lid close
+
+[Login]
+HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+HandleLidSwitchDocked=ignore
+LidSwitchIgnoreInhibited=no
