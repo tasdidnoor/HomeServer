@@ -84,6 +84,9 @@ curl -fsSL https://get.casaos.io | sudo bash
 ```
 Once finished, go to your server's IP address in a web browser on another computer (e.g., `http://192.168.1.50`).
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tasdidnoor/Assets/main/nodeBridge/CasaOsDashboard.png" width="97%" alt="CasaOs Dashboard" />
+</p>
 
 ### 2. Jellyfin Media Server
 Install Jellyfin from the CasaOS App Store. If your laptop has an Intel CPU, go to **Dashboard > Playback** and enable **Intel QuickSync** for smooth streaming.
